@@ -243,7 +243,7 @@ switch ($fish) {
 $Group = "A";
 
 if ($Group = "A") {
-    $amt = 
+    $amt = 5;
 }
 
 
@@ -254,6 +254,6 @@ if ($Group = "A") {
 //array assingment
 
  $data = array();
-$data[] = "Daniel";
+$data[0] = "Daniel";
 echo $data[0];
 ?>
